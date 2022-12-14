@@ -1,0 +1,79 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+.mycontainer{
+    padding: 2rem 90px;
+}
+.logo img{
+    max-height: 22px;
+    width: auto;
+}
+.h-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar{
+    margin-left: 200px;
+}
+.navbar a{
+    margin-left: 25px;
+    font-family: Marcellus,serif;
+}
+#login{
+    font-size: 12px;
+    font-family: Marcellus,serif;
+    margin-left: 200px;
+}
+#login:hover{
+    color: #c0a483;
+}
+.icon i{
+    margin-right: 15px;
+    font-size: 20px;
+    transition: .5s;
+}
+.icon span{
+    position: absolute;
+    background-color:#c0a483;
+    color: #fff;
+   top: -7px;
+  right: -2px;
+  padding: 0 5px 0;
+  border-radius: 100%;
+  font-size: 13px;
+
+}
+.icon {
+    position: relative;
+    
+
+}
+.icon:hover{
+    cursor: pointer;
+
+}
+
+#secondpage{
+   
+    background-position: center;
+    background-size: contain;
+}
+#header-bottom{
+    background-image:url(https://wpbingosite.com/wordpress/kowine/wp-content/uploads/2021/06/about.jpg); 
+   background-position: top center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   padding: 300px 0;
+   background-attachment: fixed;
+}
+#firstpage{
+    position: fixed;
+}
